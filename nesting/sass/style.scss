@@ -1,0 +1,21 @@
+.class1 {
+  ul {
+    background-color: red;
+  }
+
+  li {
+    background-color: aquamarine;
+    padding: 10px 0px;
+  }
+
+  button {
+    background-color: goldenrod;
+    color: #ffffff;
+    cursor: pointer;
+
+    &:hover {
+      background-color: blueviolet;
+      transition: 500ms;
+    }
+  }
+}

@@ -1,0 +1,7 @@
+// Os imports sempre são feitos no nosso arquivo principal!
+
+// Import Colors: como em home tamo fazendo uso das var de colors, ela precisa ser chamada primeiro
+@import "./colors/colors.scss";
+
+// Import Home:
+@import "./pages/home.scss";

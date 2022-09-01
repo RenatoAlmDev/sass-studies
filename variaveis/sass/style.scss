@@ -1,0 +1,13 @@
+// Variáveis são apontadas com "$" seguido de ":" e fechando com ";"
+
+$btn-color: #ff4043;
+
+.btn1 {
+  width: 60px;
+  background-color: $btn-color;
+}
+
+.btn2 {
+  width: 75px;
+  background-color: $btn-color;
+}
