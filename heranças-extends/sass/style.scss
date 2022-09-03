@@ -1,0 +1,26 @@
+// Heranças são parecidas com Nesting, mas usaremos o "&" ao início
+
+.btn {
+  width: 125px;
+  padding: 10px 0px;
+  border-radius: 25px;
+  display: block;
+  margin-top: 10px;
+
+  &.btn-amarelo {
+    background-color: yellow;
+  }
+
+  &#btn-azul {
+    background-color: blue;
+    color: white;
+  }
+}
+
+// Com Extends: (não tem a classee principal no html)
+
+.btn-roxo {
+  @extend .btn;
+  background-color: purple;
+  color: white;
+}
